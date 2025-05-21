@@ -1,8 +1,8 @@
 :root {
-  --primary: #b388eb;     /* Soft mor – modern & pastel arası */
-  --secondary: #e0e0f0;   /* Açık gri-mor karışımı – çok nazik */
-  --dark: #1e1e2f;        /* Koyu lacivert-siyah – gözü yormaz, modern */
-  --light: #f5f5fa;       /* Soğuk beyaz – çok açık gri tonunda */
+  --primary: #b388eb;    
+  --secondary: #e0e0f0;  
+  --dark: #1e1e2f;     
+  --light: #f5f5fa;      
 }
 
 
@@ -15,17 +15,15 @@ body {
 }
 
 body.dark-mode {
-  --primary: #7f75bb;      /* Modern mor-mavi tonu – vurgu için */
-  --secondary: #44475a;    /* Koyu gri-mavi – arka planlar/çerçeveler */
-  --dark: #f8f8f2;         /* Çok açık gri – metin rengi */
-  --light: #1e1f29;        /* Arka plan – koyu lacivert ton */
+  --primary: #7f75bb;      
+  --secondary: #44475a;   
+  --dark: #f8f8f2;        
+  --light: #1e1f29;       
   
   background: var(--light);
   color: var(--dark);
 }
 
-
-/* === LAYOUT WRAPPER === */
 .wrapper {
   display: flex;
   min-height: 100vh;
@@ -93,8 +91,6 @@ nav ul li a:hover {
 }
 
 
-
-/* === DARK MODE BUTTON === */
 #dark-mode-toggle {
   background: var(--primary);
   color: var(--light);
@@ -110,7 +106,6 @@ nav ul li a:hover {
   background: var(--dark);
 }
 
-/* === CONTENT === */
 .content {
   margin-left: 270px; /* Sidebar genişliği + boşluk */
   padding: 2rem;
@@ -118,7 +113,6 @@ nav ul li a:hover {
   box-sizing: border-box;
 }
 
-/* === CARDS === */
 .card,
 .project-card {
   background: var(--secondary);
@@ -136,7 +130,6 @@ nav ul li a:hover {
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-/* === PROJECT LINKS === */
 .project-card a {
   display: block;
   margin-top: 0.5rem;
@@ -161,7 +154,6 @@ body.dark-mode .project-card:hover a {
   background: var(--secondary);
 }
 
-/* === FILTER BUTTONS === */
 .filter-buttons {
   display: flex;
   gap: 1rem;
@@ -293,8 +285,6 @@ body.dark-mode .project-card:hover a {
   line-height: 1;
 }
 
-
-/* Dark Mode için opsiyonel */
 body.dark-mode .cv-button {
   background: var(--primary);
   color: #fff;
@@ -308,8 +298,6 @@ body.dark-mode .cv-button:hover {
 }
 
 
-
-/* === RESPONSIVE (opsiyonel) === */
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;

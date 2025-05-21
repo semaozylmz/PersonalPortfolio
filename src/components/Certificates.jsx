@@ -53,7 +53,6 @@ const certificates = [
 const driveFolderLink = 'https://drive.google.com/drive/folders/1IQfqxkB5ySKX2IwkoQWmzbGMNGgXNnFz?usp=share_link'; // Drive klasör linki buraya
 
 export default function Certificates() {
-  // İlk 11 sertifika gösterilecek, son kart + olacak
   const visibleCertificates = certificates.slice(0, 11);
 
   return (
