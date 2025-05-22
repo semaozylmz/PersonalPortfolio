@@ -1,12 +1,55 @@
-# React + Vite
+# 🌸 Personal Portfolio — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Merhaba! Bu proje, kendi kişisel portföyümü oluşturmak ve hem frontend yeteneklerimi sergilemek hem de daha fazla profesyonel görünürlük elde etmek amacıyla geliştirdiğim bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+📍 **Canlı Görmek İçin:**  
+👉 [GitHub Pages Üzerinden Yayında](https://semaozylmz.github.io/PersonalPortfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** – Modern bileşen yapısı ve etkileşimli UI
+- **Vite** – Hızlı geliştirme ve üretim build işlemleri
+- **CSS Custom Properties (Değişkenler)** – Tema yönetimi ve sade stil kodlaması
+- **GitHub Pages** – Deploy işlemi
+- **gh-pages** – Otomatik yayınlama komutu
+
+---
+
+## 🎨 Özellikler
+
+- Karanlık / Aydınlık tema desteği  
+- Zarif ve sade bir tasarım  
+- Responsive (Mobil uyumlu) tasarım  
+- Hakkımda, Projelerim ve İletişim bölümleri  
+- Geçiş animasyonları ve kullanıcı odaklı deneyim
+
+---
+
+## 🚀 Kurulum & Geliştirme
+
+Projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+
+```bash
+git clone https://github.com/semaozylmz/PersonalPortfolio.git
+cd PersonalPortfolio
+npm install
+npm run dev
+
+
+## Deploy
+
+Vite ile GitHub Pages’e deploy etmek için:
+
+vite.config.js içinde şu base ayarı yapıldı:
+
+base: "/PersonalPortfolio/"
+
+gh-pages paketi yüklendi.
+
+Aşağıdaki komutla deploy işlemi yapıldı:
+
+npm run build
+npm run deploy
+
